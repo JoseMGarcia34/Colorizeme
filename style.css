@@ -155,3 +155,15 @@
       padding-right: 5vh;
       padding-top: 2vh;     
     }
+
+@media (max-width: 600px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;   
+        width: 25%;
+        height: 50%;
+        padding-left: 2vh;
+        padding-top: 6.5vh;         
+      }
