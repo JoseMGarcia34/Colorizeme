@@ -93,5 +93,11 @@ function reset(color) {
     cuerpo.style.backgroundColor = "burlywood";
     pantalones.style.backgroundColor = "burlywood";
     zapatillas.style.backgroundColor = "burlywood";
+    var text1 = document.getElementById('colorC');
+    text1.innerText = "";
+    var text2 = document.getElementById('colorP');
+    text2.innerText = "";
+    var text3 = document.getElementById('colorZ');
+    text3.innerText = "";
 }
 

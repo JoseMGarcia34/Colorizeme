@@ -154,7 +154,7 @@
   padding-top: 10vh;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  -webkit-text-stroke: .6px #ADF1D2;
+  -webkit-text-stroke: .3px white;
 }
 
 /* Imagenes */
@@ -186,7 +186,7 @@
       font-size: medium;
       color: black;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      -webkit-text-stroke: .6px #ADF1D2;
+      -webkit-text-stroke: .3px white;
     }
 
     }
