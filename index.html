@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colores</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div></div>
+    <div class="cuerpo" id="cuerpo">       
+        <div class="wrapper">
+            <button onclick="changeColorCuerpo(this)" class="black"></button>
+            <button onclick="changeColorCuerpo(this)" class="white"></button>
+            <button onclick="changeColorCuerpo(this)" class="beige"></button>
+            <button onclick="changeColorCuerpo(this)" class="darkblue"></button>
+            <button onclick="changeColorCuerpo(this)" class="darkolivegreen"></button>
+            <button onclick="changeColorCuerpo(this)" class="brown"></button> 
+          </div> 
+          <div class="imgCuerpo"><img src="img/cuerpo.png" alt="cuerpo"></div>          
+        </div>     
+    <div class="pantalones" id="pantalones">        
+        <div class="wrapper">
+            <button onclick="changeColorPantalones(this)" class="black"></button>
+            <button onclick="changeColorPantalones(this)" class="white"></button>
+            <button onclick="changeColorPantalones(this)" class="beige"></button>
+            <button onclick="changeColorPantalones(this)" class="darkblue"></button>
+            <button onclick="changeColorPantalones(this)" class="darkolivegreen"></button>
+            <button onclick="changeColorPantalones(this)" class="brown"></button> 
+          </div>
+          <div class="imgPantalones"><img src="img/pantalones.png" alt="pantalones"></div>
+    </div>
+    <div class="zapatillas" id="zapatillas">       
+        <div class="wrapper">
+            <button onclick="changeColorZapatillas(this)" class="black"></button>
+            <button onclick="changeColorZapatillas(this)" class="white"></button>
+            <button onclick="changeColorZapatillas(this)" class="beige"></button>
+            <button onclick="changeColorZapatillas(this)" class="darkblue"></button>
+            <button onclick="changeColorZapatillas(this)" class="darkolivegreen"></button>
+            <button onclick="changeColorZapatillas(this)" class="brown"></button> 
+          </div>
+          <div class="imgZapatillas"><img src="img/zapatillas.png" alt="zapatillas"></div>
+    </div>
+    <div class="botones">
+        <button  class="respuesta" onclick="conjuntar(this)">Combine</button>
+        <button class="hippie" onclick="generarNuevoColorCuerpo(); generarNuevoColorPantalones(); generarNuevoColorZapatillas()">Make me Hippie</button>
+        <button  class="respuesta" onclick="reset(this)">Reset</button>
+    </div>    
+    <script src="js.js"></script> 
+</body>
+</html>

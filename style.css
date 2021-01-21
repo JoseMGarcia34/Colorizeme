@@ -1,0 +1,157 @@
+*{ 
+    margin: 0; 
+    padding: 0;    
+}
+
+/* Partes del cuerpo */
+
+.cuerpo, .pantalones, .zapatillas {
+    background: burlywood;
+    height: 25vh;
+    width: 100%;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    transition: .5s;
+}
+
+/* Grid de colores */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;   
+    width: 15%;
+    height: 80%;
+    padding-left: 2vh;
+    padding-top: 2.5vh;    
+  }
+
+  /* Colores para elegir */
+
+  .black {
+      background-color: black;
+      border-radius: 120px;
+      border: none; 
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2); 
+      cursor: pointer;    
+  }    
+
+  .grey {
+    background-color: grey;
+    border-radius: 120px;
+    border: 5px solid  burlywood;  
+    outline: none;
+    
+}
+
+  .white {
+      background-color: white;
+      border-radius: 120px;
+      border: none;
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+  }
+
+  .beige {
+      background-color: beige;
+      border-radius: 120px;
+      border: none;  
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+  }
+
+  .darkblue {    
+      background-color: darkblue;
+      border-radius: 120px;
+      border: none;  
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+  .darkolivegreen {
+      background-color: darkolivegreen;
+      border-radius: 120px;
+      border: none; 
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+  }
+
+  .brown {
+      background-color: brown;
+      border-radius: 120px;
+      border: none;      
+      outline: none;
+      box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+  }
+
+  .black:active, .white:active, .beige:active, .darkblue:active, .darkolivegreen:active, .brown:active{
+    transform: translate(0,3px); /* Standard syntax */
+    box-shadow: 0 0 0;    
+  }
+
+  /* Botones */
+
+  .respuesta {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .botones{
+    border-top: 6px solid #ADF1D2; 
+      display: flex;
+      align-items: center;      
+      justify-content: space-around;
+      width: 100%;
+      height: 25vh;
+      background-color: #0F7173;   
+  }
+
+  .hippie, .respuesta {
+      color: #ADF1D2;
+      height: 4em;
+      width: 9em;
+      border-radius: 200px 0px 200px 200px;
+      background-color: #0F7173;      
+      outline: none;
+      border: 3px solid #0F7173;     
+  }
+
+  button {
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size:larger;           
+}
+
+.respuesta:hover{
+    background-color: #ADF1D2;
+    color: #0F7173;      
+    transition: .5s;
+    cursor: pointer;
+}
+
+.hippie:hover{
+    background: linear-gradient(90deg, rgba(165,180,58,0.63) 17%, rgba(36,29,253,0.63) 50%, rgba(252,69,69,0.6337885495995272) 100%);
+    color: white;      
+    cursor: pointer;
+}
+
+/* Imagenes */
+
+  img {
+      height: 150px;
+      padding-right: 5vh;
+      padding-top: 2vh;     
+    }
