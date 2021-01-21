@@ -148,6 +148,15 @@
     cursor: pointer;
 }
 
+/* Códigos */
+
+#colorC, #colorP, #colorZ{
+  padding-top: 10vh;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-text-stroke: .6px #ADF1D2;
+}
+
 /* Imagenes */
 
   img {
@@ -167,4 +176,18 @@
         padding-left: 2vh;
         padding-top: 6.5vh;         
       }
+
+    .respuesta, .hippie{
+        height: 15vh;
     }
+
+    #colorC, #colorP, #colorZ{
+      padding-top: 10vh;
+      font-size: medium;
+      color: black;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      -webkit-text-stroke: .6px #ADF1D2;
+    }
+
+    }
+    

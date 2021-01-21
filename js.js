@@ -50,7 +50,10 @@ function generarNuevoColorCuerpo(){
 		color = color + simbolos[Math.floor(Math.random() * 16)];
     }    
     var cuerpo = document.getElementById('cuerpo');         
-    cuerpo.style.background = color;	
+    cuerpo.style.background = color;
+    console.log("cuerpo " + color);
+    var text = document.getElementById('colorC');
+    text.innerText = color;  	
 }
 
 function generarNuevoColorPantalones(){
@@ -62,7 +65,10 @@ function generarNuevoColorPantalones(){
 		color = color + simbolos[Math.floor(Math.random() * 16)];
     }        
     var pantalones = document.getElementById('pantalones');      
-    pantalones.style.background = color;    
+    pantalones.style.background = color;
+    console.log("pantalones " + color);
+    var text = document.getElementById('colorP');
+    text.innerText = color;    
 }
 
 function generarNuevoColorZapatillas(){
@@ -74,7 +80,10 @@ function generarNuevoColorZapatillas(){
 		color = color + simbolos[Math.floor(Math.random() * 16)];
     }       
     var zapatillas = document.getElementById('zapatillas');      
-    zapatillas.style.background = color;    
+    zapatillas.style.background = color;
+    console.log("zapatillas " + color);
+    var text = document.getElementById('colorZ');
+    text.innerText = color;   
 }
 
 function reset(color) {    
@@ -85,3 +94,4 @@ function reset(color) {
     pantalones.style.backgroundColor = "burlywood";
     zapatillas.style.backgroundColor = "burlywood";
 }
+
